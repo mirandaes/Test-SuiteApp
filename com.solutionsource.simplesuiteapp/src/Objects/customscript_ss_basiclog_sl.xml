@@ -1,0 +1,21 @@
+<suitelet scriptid="customscript_ss_basiclog_sl">
+  <name>SS Basic Log SL</name>
+  <scriptfile>[/SuiteApps/com.solutionsource.simplesuiteapp/SS_BasicLog_SL.js]</scriptfile>
+  <description></description>
+  <isinactive>F</isinactive>
+  <notifyowner>T</notifyowner>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_ss_basiclog_sl">
+      <allemployees>F</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>RELEASED</status>
+      <title>SS Basic Log SL</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>
